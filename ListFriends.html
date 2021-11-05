@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Pasge</title>
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="page.css">
+</head>
+
+<body>
+    <div class="sidebar shadow">
+        <div class="avatar position-relative">
+            <img src="https://github.com/mdo.png" width="52" height="52" class="rounded-circle " alt="">
+            <span
+                class="position-absolute  start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
+                <span class="visually-hidden">New alerts</span>
+            </span>
+        </div>
+        <br>
+        <a href="HomePage.html" class="room-button shadow-sm active"><i class="fas fa-home "></i></a>
+        <a href="ListFriends.html" class="room-button shadow-sm active"><i class="far fa-address-book"></i></a>
+        <a href="ChatPage.html" class="room-button shadow-sm"><i class="far fa-comment-dots"></i></a>
+        <a href="Login.html" class="room-button shadow-sm"><i class="fas fa-sign-out-alt"></i></a>
+    </div>
+    <div class="main">
+        <div class="navbar shadow">
+            <div class="navbar-top">
+                <div class="search">
+                    <input type="text" placeholder="Search user of telphone" class="form-control rounded-pill">
+                </div>
+                <div class="add-room">
+                    <a class="btn btn-primary">
+                        <i class="fas fa-user-plus"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="navbar-bottom">
+                <div class="title">
+                    <p>Chat</p>
+                </div>
+                <ul class="list-group mb-3">
+                    <li class="list-group-item">
+                        <a href="ListFriends.html">
+                            <div class="card mb-3">
+                                <div class="row g-0">
+                                    <div class="col-md-2">
+                                        <div class="icon-friend mt-4 mx-3">
+                                            <i class="fas fa-user"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-10">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Make friends</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                    </li>
+                    <li class="list-group-item">
+                        <a href="ListGroupd.html">
+                            <div class="card mb-3">
+                                <div class="row g-0">
+                                    <div class="col-md-2">
+                                        <div class="icon-friend mt-4 mx-3">
+                                            <i class="fas fa-users"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-10">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Groups </h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                    </li>
+                </ul>
+                <div class="title">
+                    <p>List friends ( <span>9</span>   )</p>
+                </div>
+                <ul class="list-group list-group-friend">
+                    
+                    <li class="list-group-item">
+                        <a href="">
+                            <div class="card mb-3">
+                                <div class="row g-0">
+                                    <div class="col-md-2">
+                                        <img src="https://github.com/mdo.png" width="42" height="42"
+                                            class="rounded-circle mt-3 " alt="">
+                                    </div>
+                                    <div class="col-md-10">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text"><small class="text-muted">Last updated 3 mins
+                                                    ago</small>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                    </li>
+                    <li class="list-group-item">
+                        <a href="">
+                            <div class="card mb-3">
+                                <div class="row g-0">
+                                    <div class="col-md-2">
+                                        <img src="https://github.com/mdo.png" width="42" height="42"
+                                            class="rounded-circle mt-3 " alt="">
+                                    </div>
+                                    <div class="col-md-10">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text"><small class="text-muted">Last updated 3 mins
+                                                    ago</small>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                    </li>
+                    <li class="list-group-item">
+                        <a href="">
+                            <div class="card mb-3">
+                                <div class="row g-0">
+                                    <div class="col-md-2">
+                                        <img src="https://github.com/mdo.png" width="42" height="42"
+                                            class="rounded-circle mt-3 " alt="">
+                                    </div>
+                                    <div class="col-md-10">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text"><small class="text-muted">Last updated 3 mins
+                                                    ago</small>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                    </li>
+                    <li class="list-group-item">
+                        <a href="">
+                            <div class="card mb-3">
+                                <div class="row g-0">
+                                    <div class="col-md-2">
+                                        <img src="https://github.com/mdo.png" width="42" height="42"
+                                            class="rounded-circle mt-3 " alt="">
+                                    </div>
+                                    <div class="col-md-10">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text"><small class="text-muted">Last updated 3 mins
+                                                    ago</small>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                    </li>
+                    <li class="list-group-item">
+                        <a href="">
+                            <div class="card mb-3">
+                                <div class="row g-0">
+                                    <div class="col-md-2">
+                                        <img src="https://github.com/mdo.png" width="42" height="42"
+                                            class="rounded-circle mt-3 " alt="">
+                                    </div>
+                                    <div class="col-md-10">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text"><small class="text-muted">Last updated 3 mins
+                                                    ago</small>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                    </li>
+                    <li class="list-group-item">
+                        <a href="">
+                            <div class="card mb-3">
+                                <div class="row g-0">
+                                    <div class="col-md-2">
+                                        <img src="https://github.com/mdo.png" width="42" height="42"
+                                            class="rounded-circle mt-3 " alt="">
+                                    </div>
+                                    <div class="col-md-10">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text"><small class="text-muted">Last updated 3 mins
+                                                    ago</small>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                    </li>
+                    <li class="list-group-item">
+                        <a href="">
+                            <div class="card mb-3">
+                                <div class="row g-0">
+                                    <div class="col-md-2">
+                                        <img src="https://github.com/mdo.png" width="42" height="42"
+                                            class="rounded-circle mt-3 " alt="">
+                                    </div>
+                                    <div class="col-md-10">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text"><small class="text-muted">Last updated 3 mins
+                                                    ago</small>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                    </li>
+                    <li class="list-group-item">
+                        <a href="">
+                            <div class="card mb-3">
+                                <div class="row g-0">
+                                    <div class="col-md-2">
+                                        <img src="https://github.com/mdo.png" width="42" height="42"
+                                            class="rounded-circle mt-3 " alt="">
+                                    </div>
+                                    <div class="col-md-10">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text"><small class="text-muted">Last updated 3 mins
+                                                    ago</small>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="chat">
+            <div class="chat-top ">
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-1 position-relative">
+                            <div class="m-4">
+                                <div class="icon-friend mt-4 mx-3">
+                                    <i class="fas fa-user"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-11">
+                            <div class="card-body">
+                                <h5 class="card-title mt-4">Make Friends</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+             <div class="list-make-friends mt-5">
+                 <div class="container">
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                        <div class="col">
+                          <div class="card">
+                            <img src="https://github.com/mdo.png" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                              <h5 class="card-title">Card title</h5>
+                              <button type="button" class="btn btn-outline-primary">Primary</button>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                              <img src="https://github.com/mdo.png" class="card-img-top" alt="...">
+                              <div class="card-body text-center">
+                                <h5 class="card-title">Card title</h5>
+                                <button type="button" class="btn btn-outline-primary">Primary</button>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="card">
+                              <img src="https://github.com/mdo.png" class="card-img-top" alt="...">
+                              <div class="card-body text-center">
+                                <h5 class="card-title">Card title</h5>
+                                <button type="button" class="btn btn-outline-primary">Primary</button>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="card">
+                              <img src="https://github.com/mdo.png" class="card-img-top" alt="...">
+                              <div class="card-body text-center">
+                                <h5 class="card-title">Card title</h5>
+                                <button type="button" class="btn btn-outline-primary">Primary</button>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="card">
+                              <img src="https://github.com/mdo.png" class="card-img-top" alt="...">
+                              <div class="card-body text-center">
+                                <h5 class="card-title">Card title</h5>
+                                <button type="button" class="btn btn-outline-primary">Primary</button>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="card">
+                              <img src="https://github.com/mdo.png" class="card-img-top" alt="...">
+                              <div class="card-body text-center">
+                                <h5 class="card-title">Card title</h5>
+                                <button type="button" class="btn btn-outline-primary">Primary</button>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="card">
+                              <img src="https://github.com/mdo.png" class="card-img-top" alt="...">
+                              <div class="card-body text-center">
+                                <h5 class="card-title">Card title</h5>
+                                <button type="button" class="btn btn-outline-primary">Primary</button>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="card">
+                              <img src="https://github.com/mdo.png" class="card-img-top" alt="...">
+                              <div class="card-body text-center">
+                                <h5 class="card-title">Card title</h5>
+                                <button type="button" class="btn btn-outline-primary">Primary</button>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="card">
+                              <img src="https://github.com/mdo.png" class="card-img-top" alt="...">
+                              <div class="card-body text-center">
+                                <h5 class="card-title">Card title</h5>
+                                <button type="button" class="btn btn-outline-primary">Primary</button>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="card">
+                              <img src="https://github.com/mdo.png" class="card-img-top" alt="...">
+                              <div class="card-body text-center">
+                                <h5 class="card-title">Card title</h5>
+                                <button type="button" class="btn btn-outline-primary">Primary</button>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                 </div>
+              
+             </div>
+      
+        </div>
+    </div>
+    <!-- MDB -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.js"></script>
+</body>
+
+</html>
